@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.container {
+  margin-top: 10%;
+  border: 5px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+  background-color: #009dff;
+  border-radius: 15px;
+}
+h1 {
+  font-size: 2rem;
+  color: black;
+}
+p {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+button {
+  padding: 8px 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: #009dff;
+  color: white;
+  
+}

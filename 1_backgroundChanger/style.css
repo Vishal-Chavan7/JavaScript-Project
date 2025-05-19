@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 2px solid black;
+    padding: 8px 12px;
+    width:600px;
+    margin: 500px;
+    text-align: center;
+    border-radius: 15px ;
+    background-color: antiquewhite;
+}
+
+.btn{
+    border: none;
+    margin: 10px 15px;
+    padding: 8px 16px;
+    border-radius:7px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+#red{
+    background-color: red;
+    
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: forestgreen;
+    
+}
+
+#brown{
+    background-color: brown;
+}
+
+#purple{
+    background-color: purple;
+}
+
+.btn:hover{
+    color:white;
+    transition: ease-out;
+    cursor: pointer;
+}

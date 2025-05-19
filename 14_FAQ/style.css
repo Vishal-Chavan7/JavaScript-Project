@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(191, 100, 131);
+}
+
+.container{
+    /* background-color: rgb(8, 224, 224); */
+    width: 70%;
+    margin: 5px auto ;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+.accordian{
+    background-color: antiquewhite;
+    /* border:2px solid; */
+    margin:15px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.answer{
+    display: none;
+    transition:  5s ease-in-out;
+    font-size: 30px;
+}
+
+.active{
+    display: block;
+    transition:  10s ease-out;
+}
+
+.icon{
+    transition:  0.3s ease-in-out;
+}
+.rotate{
+    transform: rotate(180deg);
+}

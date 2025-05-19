@@ -1,0 +1,29 @@
+body{
+
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:200px;
+    border: 2px dotted black;
+    margin:10px ;
+    font-size: 2rem;
+    cursor: pointer;
+}

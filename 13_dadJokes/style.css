@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color:white
+}
+.main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    flex-direction: column;
+    padding: 15px 10px;
+    width:700px;
+    margin: auto;
+    margin-top: 190px;
+    border-radius: 10px;
+    background-color: rgb(226, 67, 67);
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:bisque
+}
+
+.joke{
+    padding:10px;
+
+}
+
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(226, 67, 67);
+}
+
+button:hover{
+    background-color: #fff;
+}
